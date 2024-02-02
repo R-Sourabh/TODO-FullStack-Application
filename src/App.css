@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #FFD700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 1.75rem;
+}
+
+.TodoWrapper {
+  background: black;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
+  width: 800px;
+}
+
+.TodoForm {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.todo-input {
+  outline: none;
+  background: none;
+  border: 1px solid #8758ff;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 400px;
+  color: #fff;
+}
+
+.todo-input::placeholder {
+  color: #ffffff4d;
+}
+
+.todo-btn {
+  background: green;
+  color: #fff;
+  border: none;
+  padding: 11px;
+  cursor: pointer;
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #720e9e;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.todo-checkbox {
+  margin-right: 10px;
+  transform: scale(1.5);
+}
+
+.Todo p {
+  margin: 0;
+}
+
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+.incompleted {
+  color: #fff;
+  cursor: pointer;
+}
+
+.completed {
+  color: #c5aeff;
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+.edit-icon,
+.delete-icon {
+  cursor: pointer;
+}
+
+.due-date-input {
+  margin-left: 10px;
+  padding: 0.5rem;
+}
+
+.custom-datepicker {
+  margin-right: 42px;
+  margin-bottom: 30px;
+}
+
+.sort-by-label {
+  margin-right: 10px; 
+  color: white !important;; 
+}
+
+.select{
+  margin-right: 20px;
+}
