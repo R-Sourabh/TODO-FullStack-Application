@@ -1,5 +1,5 @@
 ## Getting Started with TODO FullStack Application
-Frontend
+ ## Frontend
 This project's frontend was developed using HTML, CSS, JavaScript, and React.js.
 
 Available Scripts
@@ -15,7 +15,7 @@ Open http://localhost:3000 to view it in your browser.
 The page will reload when you make changes.
 You may also see any lint errors in the console.
 
-Backend
+ ## Backend
 The backend of this project was built using Java Spring Boot, and it uses PostgreSQL as the database.
 
 Running the Backend
@@ -30,14 +30,12 @@ Set the SDK version to 21 in IntelliJ.
 
 Build the project using Maven. Run the following command in the terminal.
 
-bash
-Copy code
 mvn clean install
 Run the Spring Boot application.
 
 The backend will be accessible at http://localhost:8081.
 
-Additional Notes
+ ## Additional Notes
 Ensure that PostgreSQL and mypgadmin4 are installed on your system.
 Start the PostgreSQL server using mypgadmin4, and note the username and password used during installation.
 Follow these steps, and you should have the TODO FullStack Application up and running on your local machine.
