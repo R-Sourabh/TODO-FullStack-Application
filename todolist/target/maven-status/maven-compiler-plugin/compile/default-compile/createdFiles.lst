@@ -1,0 +1,4 @@
+com\backend\todolist\Repository\TodoRepository.class
+com\backend\todolist\TodolistApplication.class
+com\backend\todolist\model\Todo.class
+com\backend\todolist\Controller\TodoController.class
